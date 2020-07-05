@@ -1,0 +1,25 @@
+routine test
+echo Testing routines other than main.
+endr
+
+routine main
+echo Testing inccorect values for variables.|n
+run test
+|n
+num joe = 5
+echo Testing echo|n
+num x = 5
+echo Testing variables. X has a value of %x%.|n
+x = 7
+echo Testing variable redefinition. X now has a value of %x%.|n
+x = 2 + 3
+echo Testing variables with math operations. X has a value of 2 + 3, thus %x%.|n
+num y = 5
+num z = x + y
+echo Testing variables with math operations of other variable. Y has a value of 5, and Z has a value of x + y, thus %z%.|n
+str w = Verl gang
+echo Testing strings. W has a value of " %w% ".|n
+run test
+echo Joe nuts|n
+run test
+endr

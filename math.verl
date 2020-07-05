@@ -1,0 +1,14 @@
+num w = 2
+echo the value of w is %w%|n
+num x = 2
+echo the value of x is %x%|n
+num y = w + x
+echo the value of y, after assigning it as the sum of w and x, is now %y%.|n
+num z = 2 + 3
+echo the value of z is 2 + 3, thus it is %z%|n
+z = 2 * 3
+echo the value of z is 2 * 3, thus it is %z%|n
+z = 2 - 3
+echo the value of z is 2 - 3, thus it is %z%|n
+z = 10 / 2
+echo the value of z is 10 / 2, thus it is %z%
