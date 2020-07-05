@@ -1,5 +1,0 @@
-num x = 1
-str joe = Hello, world!
-echo Hey, did you know that
-echo verl gang is number %x%!?!?!?!|n
-echo %joe%
